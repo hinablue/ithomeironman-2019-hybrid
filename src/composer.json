@@ -1,0 +1,28 @@
+{
+    "name": "ithomeironman2091/hybrid",
+    "type": "project",
+    "config": {
+        "vendor-dir": "app/vendor"
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "slim/slim": "^4.2",
+        "slim/twig-view": "^3.0.0-beta",
+        "middlewares/trailing-slash": "^1.1",
+        "nyholm/psr7": "^1.2",
+        "nyholm/psr7-server": "^0.3.0",
+        "php-di/php-di": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ithomeironman2019\\": "app"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hina Chen",
+            "email": "hinablue@gmail.com"
+        }
+    ]
+}
