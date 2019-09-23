@@ -4,6 +4,8 @@
 
 ```
 npm install
+cd src/
+composer install
 ```
 
 ### Compiles and minifies for production
