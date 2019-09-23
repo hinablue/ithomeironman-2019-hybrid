@@ -1,27 +1,23 @@
-# 2019 ITHome Ironman simple ssr-app with docker
+# 2019 ITHome Ironman simple hybrid app
 
 ## Project setup
 
 ```
-docker-compose up -d
+npm install
 ```
 
 ### Compiles and minifies for production
 
 ```
-docker-compose exec ironmanapp npm run build
+npm run build
 ```
 
 ### Test production localy
 
-You MUST BE run `build` first, and,
-
 ```
-docker-compose exec ironmanapp npm run dist
+npm run serve
+php -S localhost:8080 -t src/public/
 ```
-
-Open your browser and goto [http://localhost:8080](http://localhost:8080)
-
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
